@@ -1,5 +1,11 @@
+................ Frontend .......................
+
 git clone https://github.com/DilanPramodhya/crm-frontend.git
+
+https://trello.com/b/rwTDUEgg/crm-ticket-system
 
 npm install react-bootstrap bootstrap
 
 npm i prop-types
+
+................ Backend .......................
