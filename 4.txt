@@ -1,0 +1,5 @@
+git clone https://github.com/DilanPramodhya/crm-frontend.git
+
+npm install react-bootstrap bootstrap
+
+npm i prop-types
