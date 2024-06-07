@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Nav, Row } from "react-bootstrap";
 import { PageBreadcrumb } from "../../components/breadcrumb/Breadcrumb.comp";
 import { SearchForm } from "../../components/search-form/SearchForm.comp";
 import { TicketTable } from "../../components/ticket-table/TicketTable.comp";
@@ -31,9 +31,16 @@ export function TicketLists() {
           <PageBreadcrumb page="Tickets List" />
         </Col>
       </Row>
-      <Row className="mt-4">
+      <Row className="mt-5">
         <Col>
-          <Button variant="info">Add New Ticket</Button>
+          <Nav>
+            <Nav.Link href="/add-ticket">
+              <Button variant="info">Add New Ticket</Button>
+            </Nav.Link>
+          </Nav>
+          {/* <Link to="/add-ticket">
+            <Button variant="info">Add New Ticket</Button>
+          </Link> */}
         </Col>
         <Col className="text-right">
           <SearchForm handleOnChange={handleOnChange} str={str} />

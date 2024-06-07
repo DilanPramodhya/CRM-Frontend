@@ -11,7 +11,7 @@ export const AddTicketForm = ({
 }) => {
   console.log(frmData);
   return (
-    <Card className="mt-3 add-new-ticket bg-light">
+    <Card className="mt-3 py-4 add-new-ticket bg-light">
       <h1 className="text-info text-center">Add New Ticket</h1>
       <hr />
       <Form autoComplete="off" onSubmit={handleOnSubmit} className="px-4">
